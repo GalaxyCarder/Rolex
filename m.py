@@ -293,7 +293,7 @@ def start_attack_reply(message, target, port, time):
 # Dictionary to store the last time each user ran the /bgmi command
 bgmi_cooldown = {}
 
-COOLDOWN_TIME =1
+COOLDOWN_TIME =0
 
 # Handler for /bgmi command
 @bot.message_handler(commands=['bgmi'])
