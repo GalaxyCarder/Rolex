@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-#IPxKINGYT
+#IPxKINGYTv1
 
 import telebot
 import subprocess
