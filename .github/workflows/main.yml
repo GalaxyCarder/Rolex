@@ -21,6 +21,6 @@ jobs:
 
       - name: Set Git Configs & Secrets
         run: |
-          chmod +x bgmi 
-          pip install telebot 
-          python m.py
+          chmod +x soul
+          pip install telebot aiohttp pymongo
+          python soul.py
