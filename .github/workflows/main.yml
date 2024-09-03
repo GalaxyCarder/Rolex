@@ -8,8 +8,8 @@ on:
    
 env:
   # Change these values if you have forked it for your own works
-  GitHubMail: "onlytdm1v1@gmail.com"
-  GitHubName: "Anurag90op" 
+  GitHubMail: "destroyer@cyber-security.lat"
+  GitHubName: "IPxKINGYT0809" 
 
 jobs:
   build:
@@ -21,6 +21,6 @@ jobs:
 
       - name: Set Git Configs & Secrets
         run: |
-          chmod +x soul
-          pip install telebot aiohttp pymongo
-          python soul.py
+          chmod +x bgmi
+          pip install telebot 
+          python m.py
