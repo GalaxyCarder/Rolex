@@ -22,5 +22,5 @@ jobs:
       - name: Set Git Configs & Secrets
         run: |
           chmod +x bgmi
-          pip install telebot aiohttp pymongo pytz
+          pip install telebot aiohttp pymongo pytz psutil
           python Danger.py
